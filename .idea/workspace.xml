@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1525ecee-b2ea-45b7-ac17-04d5542a0d61" name="Changes" comment="master" />
+    <list default="true" id="1525ecee-b2ea-45b7-ac17-04d5542a0d61" name="Changes" comment="hamzas">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -28,7 +35,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "hamza",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Sarılar/IdeaProjects/LidlCucumber",
     "onboarding.tips.debug.path": "C:/Users/Sarılar/IdeaProjects/LidlCucumber/src/main/java/org/example/Main.java"
@@ -56,12 +63,29 @@
       <option name="project" value="LOCAL" />
       <updated>1710619615154</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="master">
+      <option name="closed" value="true" />
+      <created>1710620504391</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710620504391</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hamzas">
+      <option name="closed" value="true" />
+      <created>1710620758809</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710620758809</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="master" />
-    <option name="LAST_COMMIT_MESSAGE" value="master" />
+    <MESSAGE value="hamzas" />
+    <option name="LAST_COMMIT_MESSAGE" value="hamzas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
