@@ -1,9 +1,10 @@
-package mainUtilities;
+package mainUtilities ;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
@@ -86,7 +87,7 @@ public class CommonMethods {
             log.warn("InterruptedException in Thread.sleep(). Message: " + e.getMessage());
         }
 
-        }
     }
+}
 
 
