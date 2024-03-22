@@ -2,8 +2,10 @@ package mainStepdefinitions;
 
 import io.cucumber.java.en.*;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import mainUtilities.DriverClass;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 public class US6PolinaStepDefinitions {
@@ -39,12 +41,15 @@ public class US6PolinaStepDefinitions {
 
     @And("I click the \"Sign In\" button on the login page")
     public void iClickTheButtonOnTheLoginPage() {
-        driver.findElement(By.xpath("//a[normalize-space()='sign in']")).click();
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        WebElement element = driver.findElement(By.xpath("//a[normalize-space()='sign in']"));
+        js.executeScript("arguments[0].scrollIntoView(true);", element);
+        element.click();
     }
 
     @Then("I should confirm that the login is successful")
     public void iShouldConfirmThatTheLoginIsSuccessful() {
-        boolean isLoginSuccessful = driver.findElement(By.xpath("//button[@class='clickable button profile-dropdown-button clickable--theme-flat clickable--size-auto clickable--bold-weight clickable--regular-font']")).isDisplayed();
+        boolean isLoginSuccessful = driver.findElement(By.xpath("//span[@class='profile-dropdown-button-label ']")).isDisplayed();
         Assert.assertTrue(isLoginSuccessful, "Login was not successful, 'My Account' button not visible");
     }
 }
