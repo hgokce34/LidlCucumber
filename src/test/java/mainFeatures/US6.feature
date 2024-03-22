@@ -4,9 +4,9 @@ Feature: User Login
   shopping, and access other features.
 
   Scenario: Successful login to the web store
-    Given I am a web visitor
-    When I navigate to the Lidl homepage
-    Then I should be on "https://www.lidl.com/"
+    Given I access the web as a visitor
+    When I proceed to the Lidl main page
+    Then I expect to be at "https://www.lidl.com/"
     When I click the "Sign In" button on the homepage
     And I enter my email "polya3hus@gmail.com" and password "LidlPassword123"
     And I click the "Sign In" button on the login page
